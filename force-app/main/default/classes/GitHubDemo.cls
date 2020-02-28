@@ -7,7 +7,7 @@ public with sharing class GitHubDemo {
 
     public static void showStrings(){
         List<String> finalAllStringLocal = processStrings();
-        System.debug('finalAllStringLocal -->'+finalAllStringLocal);
+        System.debug('finalAllStringLocal --> Comment 2'+finalAllStringLocal);
     }
 
     public static List<String> processStrings(){
